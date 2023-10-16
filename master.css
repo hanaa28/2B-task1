@@ -1,0 +1,84 @@
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.protofilo{
+
+background-color: rgb(122, 121, 121);
+height:100vh;
+padding: 30px;
+
+}
+.protofilo .title{
+    padding: 10px;
+    text-align: center;
+}
+h2{
+    line-height: 2;
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+h4{
+    color: darkgray;
+    font-size: 17px;
+    letter-spacing: 3px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.container .content{
+    
+    min-width: 250px;
+    width:33.333%;
+    border-radius: 5px;
+    text-align: center;
+    text-align: center;
+   
+}
+.container .content .image{
+    margin: 5px 5px 0;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.container .content .f-color{
+background-color: rgb(148, 125, 170);
+}
+.container .content .s-color{
+    background: #2196f3d6;
+}
+.container .content .t-color{
+    background: #91c6cd
+
+}
+img{
+    width: 100px;
+    height: 150px;
+    border-radius: 50%;
+}
+.container .content .text{
+    margin: 0 5px 5px;
+    padding: 10px;
+    background: white;
+    line-height: 1.5;
+    font-style: italic;
+    font-size: 19px;
+}
+@media (max-width:767px) {
+    .protofilo{
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+  }
+  @media (max-width:577px) {
+    .container {
+        justify-content: center;
+     }
+  }
